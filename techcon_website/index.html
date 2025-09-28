@@ -1,24 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- Use the standard character set for all text and symbols -->
-    <meta charset="utf-8"> 
-    <!-- Ensure the page looks good on all devices (mobile, tablet, desktop) -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-    <title>TechCon 2024 - Homepage</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechCon 2024</title>
+    <style>
+       
+    </style>
 </head>
 <body>
-    <!-- 1. HEADER: Contains the top-level title and main navigation menu -->
     <header>
-        <!-- The main title of the page -->
         <h1>TechCon 2024</h1>
-        
-        <!-- Navigation Menu: Links to all other pages -->
         <nav>
             <ul>
-                <!-- Link to the current page (Homepage) -->
-                <li><a href="index.html">Home</a></li>
-                <!-- Links to other pages (which you will create next) -->
                 <li><a href="about.html">About</a></li>
                 <li><a href="schedule.html">Schedule</a></li>
                 <li><a href="register.html">Register</a></li>
@@ -27,35 +21,19 @@
         </nav>
     </header>
 
-    <!-- 2. MAIN: Contains the primary content of this specific page -->
     <main>
-        <!-- SECTION: The main introductory content area -->
-        <section id="introduction">
-            <h2>Welcome to TechCon 2024!</h2>
-            
-            <!-- Brief paragraph describing the event -->
-            <p>
-                Join us for the most exciting technology conference of the year, bringing together innovators, developers, and entrepreneurs from around the globe. TechCon 2024 is your chance to learn about the future of AI, web development, and cloud computing.
-            </p>
-
-            <!-- EMBEDDED PROMOTIONAL VIDEO -->
-            <!-- The 'video' tag embeds the player. The 'controls' attribute adds play/pause buttons. -->
-            <!-- The 'poster' attribute shows an image while the video is loading. -->
-            <video width="100%" controls poster="https://placehold.co/600x400/000/fff?text=TechCon+Promo">
-                <!-- The 'source' tag tells the browser where to find the video file. -->
-                <source src="video_placeholder.mp4" type="video/mp4">
-                <!-- Fallback text for older browsers that cannot play the video -->
-                Your browser does not support the video tag. Please consider updating.
+        <section>
+            <p>Welcome to TechCon 2024! Join us for a cutting-edge technology conference where experts share insights, innovations, and trends.</p>
+            <video controls width="640">
+                <source src="techcom vid.mp4" type="video/mp4">
+                Your browser does not support the video tag.
             </video>
-            
         </section>
-        
     </main>
 
-    <!-- 3. FOOTER: Contains copyright and legal information at the bottom of the page -->
     <footer>
-        <p>copyright &copy; 2024 TechCon All Rights Reserved.</p>
+        &copy; Copyright TechCon 2024. All rights reserved. | Privacy Policy
     </footer>
-
+    
 </body>
 </html>
